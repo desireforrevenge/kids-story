@@ -1,0 +1,19 @@
+.button {
+	/* О нас */
+	position: absolute;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.text {
+	color: rgb(51, 65, 85);
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 17px;
+	letter-spacing: 0%;
+	text-align: left;
+}
+
+.mark {
+}

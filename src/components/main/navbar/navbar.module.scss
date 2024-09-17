@@ -1,0 +1,113 @@
+.navbar {
+	position: relative;
+
+	background-color: purple;
+}
+
+.hat {
+	position: absolute;
+
+	background-color: red;
+}
+
+
+
+@media screen and (max-width: 480px) {
+	//мобильный вариант
+	.navbar {
+		height: 75.07px;
+	}
+
+	.hat {
+		top: 21px;
+		left: 6.25%;
+
+		height: 35px;
+		width: 87.5%;
+	}
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px) {
+	//версию для планшетов не завезли..(
+	.navbar {
+		height: 113.7px;
+	}
+
+	.hat {
+		top: 15.59px;
+		left: 13.02%;
+
+		height: 66.95px;
+		width: 73.99%;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+	.navbar {
+		height: 113.7px;
+	}
+
+	.hat {
+		top: 15.59px;
+		left: 13.02%;
+
+		height: 66.95px;
+		width: 73.99%;
+	}
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1300px) {
+	.navbar {
+		height: 113.7px;
+	}
+
+	.hat {
+		top: 15.59px;
+		left: 13.02%;
+
+		height: 66.95px;
+		width: 73.99%;
+	}
+}
+
+@media screen and (min-width: 1300px) and (max-width: 1600px) {
+	.navbar {
+		height: 113.7px;
+	}
+
+	.hat {
+		top: 15.59px;
+		left: 13.02%;
+
+		height: 66.95px;
+		width: 73.99%;
+	}
+}
+
+@media screen and (min-width: 1600px) and (max-width: 1920px) {
+	.navbar {
+		height: 113.7px;
+	}
+
+	.hat {
+		top: 15.59px;
+		left: 13.02%;
+
+		height: 66.95px;
+		width: 73.99%;
+	}
+}
+
+@media screen and (min-width: 1920px) {
+	.navbar {
+		height: 124px;
+	}
+
+	.hat {
+		top: 17px;
+		left: 250px;
+
+		height: 73px;
+		width: 73.99%;
+	}
+}
